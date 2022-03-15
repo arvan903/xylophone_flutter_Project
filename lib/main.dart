@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:flutter/rendering.dart';
 
 void main() {
   runApp(const XylophoneApp());
@@ -21,7 +20,7 @@ class XylophoneApp extends StatelessWidget {
         onPressed: () {
           playSound(soundNumber);
         },
-        child: Text(''),
+        child: const Text(''),
       ),
     );
   }
